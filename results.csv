@@ -1,0 +1,37 @@
+Task,Model,DimensionReduction,Features,Accuracy,BalancedAccuracy,AUC,Time,Searches,TimePerSearch,Hyperparameters
+Binary,ElasticNet,None,117,0.984975,0.980548,0.997466,238,10,24,"{'l1_ratio': 0.7, 'class_weight': ‘balanced’, 'C': 0.0005623413251903491}"
+Binary,ElasticNet,PCA,93,0.987520,0.977419,0.995280,486,40,12,"{'l1_ratio': 0.7, 'class_weight': ‘balanced’, 'C': 0.0005623413251903491}"
+Binary,ElasticNet,SVM-RFE,86,0.994338,0.996390,0.999800,2226,40,56,"{'l1_ratio': 0.95, 'class_weight': None, 'C': 8.25404185268019}"
+Binary,ElasticNet,AE,20,0.994896,0.996326,0.998833,1395,40,35,"{'l1_ratio': 0.7, 'class_weight': 'balanced', 'C': 0.0005623413251903491}"
+Binary,RandomForest,None,117,0.999660,0.999788,0.999998,2085,10,209,"{'n_estimators': 600, 'max_leaf_nodes': 31, 'max_features': 18}"
+Binary,RandomForest,PCA,93,0.999374,0.999609,0.999996,4946,40,124,"{‘n_estimators’: 600, ‘max_leaf_nodes’: 31, ‘max_features’: 16}"
+Binary,RandomForest,SVM-RFE,110,0.999660,0.999788,0.999993,8857,40,221,"{'n_estimators': 300, 'max_leaf_nodes': 31, 'max_features': 18}"
+Binary,RandomForest,AE,20,0.998707,0.999116,0.999991,5339,40,133,"{'n_estimators': 600, 'max_leaf_nodes': 26, 'max_features': 4}"
+Binary,NeuralNet,None,117,0.999619,0.999608,0.999997,796,10,80,"{'rate': 0.1, 'n_neurons': 132, 'n_hidden': 3, ‘MC Dropout’: 100}"
+Binary,NeuralNet,PCA,88,0.999388,0.999489,0.999987,3246,40,81,"{'rate': 0.1, 'n_neurons': 255, 'n_hidden': 2, ‘MC Dropout’: No}"
+Binary,NeuralNet,SVM-RFE,57,0.999755,0.999821,0.999999,5938,40,148,"{'rate': 0.1, 'n_neurons': 258, 'n_hidden': 2, ‘MC Dropout’: 100}"
+Binary,NeuralNet,AE,10,0.999292,0.999275,0.999989,5222,40,131,"{'rate': 0.1, 'n_neurons': 172, 'n_hidden': 3, ‘MC Dropout’: no}"
+Coarse,ElasticNet,None,117,,,,,,,
+Coarse,ElasticNet,PCA,,,,,,,,
+Coarse,ElasticNet,SVM-RFE,,,,,,,,
+Coarse,ElasticNet,AE,,,,,,,,
+Coarse,RandomForest,None,117,,,,,,,
+Coarse,RandomForest,PCA,,,,,,,,
+Coarse,RandomForest,SVM-RFE,,,,,,,,
+Coarse,RandomForest,AE,,,,,,,,
+Coarse,NeuralNet,None,117,,,,,,,
+Coarse,NeuralNet,PCA,,,,,,,,
+Coarse,NeuralNet,SVM-RFE,,,,,,,,
+Coarse,NeuralNet,AE,,,,,,,,
+Multi,ElasticNet,None,117,,,,,,,
+Multi,ElasticNet,PCA,,,,,,,,
+Multi,ElasticNet,SVM-RFE,,,,,,,,
+Multi,ElasticNet,AE,,,,,,,,
+Multi,RandomForest,None,117,,,,,,,
+Multi,RandomForest,PCA,,,,,,,,
+Multi,RandomForest,SVM-RFE,,,,,,,,
+Multi,RandomForest,AE,,,,,,,,
+Multi,NeuralNet,None,117,,,,,,,
+Multi,NeuralNet,PCA,,,,,,,,
+Multi,NeuralNet,SVM-RFE,,,,,,,,
+Multi,NeuralNet,AE,,,,,,,,
